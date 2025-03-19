@@ -50,14 +50,14 @@
 }
 
 .rec-label::before {
-  content: "REC";
+  content: var(--rec-theme-before);
   color: var(--theme-color);
   font-size: 18px;
   line-height: 25px;
 }
 
 .rec-label::after {
-  content: "";
+  content: var(--rec-theme-after);
   display: inline-block;
   width: 9px;
   height: 9px;

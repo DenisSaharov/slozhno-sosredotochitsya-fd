@@ -9,6 +9,8 @@
   --text-color: #353430;
   --visibility: none;
   --block-title-text-color:#353430;
+  --rec-theme-before: none;
+  --rec-theme-after: none;
 }
 
 
