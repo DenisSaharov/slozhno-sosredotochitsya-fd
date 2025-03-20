@@ -2,6 +2,7 @@
 
 .page {
   background-image: var(--background-image);
+  background-color: var(--background-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -89,10 +90,11 @@
   color: var(--button-text-color);
   background-color: transparent;
   cursor: pointer;
+  text-transform: lowercase;
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--button-hover-color);
+  outline: 1px solid var(--hover-color);
 }
 
 .header__theme-menu-button:focus {
@@ -109,7 +111,7 @@
   justify-self: start;
   color: var(--focus-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 96px;
+  line-height: 83%;
   text-align: left;
   text-shadow: 4px 4px 0 var(--theme-color);
 }
@@ -261,7 +263,7 @@
   }
 
   .block-title {
-    max-width: 236px;
+    inline-size: 236px;
   }
 
   .block-how {
@@ -330,7 +332,7 @@
   }
 
   .block-title {
-    max-width: 315px;
+    inline-size: 315px;
   }
 
   .block__what-adaptation {

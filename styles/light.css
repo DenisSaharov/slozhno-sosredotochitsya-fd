@@ -1,6 +1,7 @@
 :root.theme-light {
   --theme-color: #ff8dcb;
   --background-image: url(../images/cover-image-light.png);
+  --background-color:#fff1f7;
   --decorated-zone-color:#353430;
   --hover-color: #32312d66;
   --button-text-color: #353430;
@@ -13,8 +14,24 @@
   --rec-theme-after: none;
 }
 
-
-
+@media (prefers-color-scheme: light) {
+ 
+  body {
+    --theme-color: #ff8dcb;
+    --background-image: url(../images/cover-image-light.png);
+    --background-color:#fff1f7;
+    --decorated-zone-color:#353430;
+    --hover-color: #32312d66;
+    --button-text-color: #353430;
+    --focus-color: #ffc2e6;
+    --title-text-color: #353430;
+    --text-color: #353430;
+    --visibility: none;
+    --block-title-text-color:#353430;
+    --rec-theme-before: none;
+    --rec-theme-after: none;
+}
+}
 
 
 
